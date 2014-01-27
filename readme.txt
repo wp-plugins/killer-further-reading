@@ -17,6 +17,8 @@ For blogs that aren't too general, every content is more or less related and so 
 
 Other further reading plugins just show the best or most popular articles based on tag or category of the article you are currently on but that may not always be the best content of the blog. So if you have a better article from other category but is one of the best resource of your blog, it makes much more sense to be showing that content rather. The killer part helps avoiding the content that is already viewed once and so you can suggest more and more of your best content as the process of reading continues.
 
+For any suggestion or improvement you want in the plugin, you can always let me know on my blog <a href="http://imtips.co/killer-further-reading.html">here</a>.
+
 == Installation ==
 
 Please Follow the exact Steps to install and activate this plugin.
@@ -30,6 +32,8 @@ Please Follow the exact Steps to install and activate this plugin.
 = Installed and activated the Plugin but cannot find any option for the plugin? =
 
 The plugin adds a widget and so you will see a new widget Killer Further Reading widget that can be dragged anywhere you prefer like in footer, sidebars or even after post (Provided your theme has a widget area there).
+
+For more questions queries or suggestions, you can always ask me on my blog <a href="http://imtips.co/killer-further-reading.html">here</a>.
 
 == Screenshots ==
 
