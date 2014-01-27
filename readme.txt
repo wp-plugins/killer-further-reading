@@ -41,10 +41,13 @@ For more questions queries or suggestions, you can always ask me on my blog <a h
 
 == Changelog ==
 
+= 0.03 =
+* FAQ Updates
+
 = 0.01 =
 * Basic Working Version of Killer Further Reading
 
 == Upgrade Notice ==
 
-= 0.02 =
+= 0.03 =
 Just Replace the content of the plugins folder with the new content and re-activate the plugin.
