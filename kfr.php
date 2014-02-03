@@ -4,7 +4,7 @@ Plugin Name: Killer Further Reading
 Plugin URI: http://wordpress.org/extend/plugins/killer-further-reading/
 Description: The best content from your blog is shown to the user for further reading only if he has not read the content. The tracking is done through cookie being placed for the content already read.
 Author: Shabbir Bhimani
-Version: 0.03
+Version: 0.04
 Author URI: http://imtips.co/killer-further-reading.html
 */
 // Creating the widget
@@ -38,7 +38,7 @@ class kfr_widget extends WP_Widget {
             // This is where you run the code and display the output
             $tag_slug = $instance['tag_slug'];
             $post_count = $instance['post_count'];
-            _best_of_posts($tag_slug, $post_count);
+            kfr_best_posts($tag_slug, $post_count);
         }
         echo $args['after_widget'];
     }
@@ -97,7 +97,7 @@ function kfr_load_widget() {
 }
 add_action( 'widgets_init', 'kfr_load_widget' );
 
-function _best_of_posts($tag_slug, $number_posts = 5) {
+function kfr_best_posts($tag_slug, $number_posts = 5) {
     echo "<ul class=\"killer-further-reading\">";
     $excluded = get_the_ID();
     if(isset($_COOKIE['haveseen']))
