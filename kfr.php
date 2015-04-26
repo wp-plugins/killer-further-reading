@@ -4,7 +4,7 @@ Plugin Name: Killer Further Reading
 Plugin URI: http://wordpress.org/extend/plugins/killer-further-reading/
 Description: The best content from your blog is shown to the user for further reading only if he has not read the content. The tracking is done through cookie being placed for the content already read.
 Author: Shabbir Bhimani
-Version: 0.04
+Version: 0.05
 Author URI: http://imtips.co/killer-further-reading.html
 */
 // Creating the widget
